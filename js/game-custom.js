@@ -5,36 +5,6 @@ var canSpin;
 var hjulfarver = [0x1456ff, 0x1c8cff]
 var hjulradius = 350
 
-
-// Her indsættes bundesange!!!
-// ["Navn", ["youtubeID1", "YoutubeID2", ..], "facebookID ELLER img link"] 100 x 100 size
-//https://www.youtube.com/watch?v=
-var itemsOld = [
-    ["Andreas", ["mDFBTdToRmw"], "profil/andreas.jpg"], // Skibidi
-    ["J_n",["eI-THZvxzdI"], "profil/jan.jpg"], // Alt på Svensk
-    ["Oda", ["y6120QOlsfU", "TBElYMDycWk"], "profil/gluten.jpg"], // Darude Sandstorm + Hvor er du bro?
-    ["Harald", ["jvSpwN5aioo"], "profil/harald.jpg"], // Alt med Magtens korridorer
-    ["Frederik V", ["J294A-R1Cjk"], "profil/vejby.jpg"], // Dancing on my own
-    ["Christian Kjær", ["MFBPzmLjEm4"],"profil/christian.jpg"], // Alt med TopGunn 
-    ["Rune", ["Qa_2C15Uh5c"], "profil/rune.jpg"], // Kinky fætter 
-    ["Vindue", ["rY-DY6dUDuA"], "profil/vindue.jpg"], // Beautiful Morning
-    ["Frederik H", ["L_jWHffIx5E"], "profil/hejby.jpg"], // Smash mouth - All star
-    ["Ida", ["jqwyd749KGw"], "profil/ida.jpg"], //Vodkafjæs :(
-    ["Martin", ["wSzcdRz6aso", "moSFlvxnbgk"], "profil/martin.jpg"], //Alt med Disney
-    ["Daniel", ["UNAr5tzZxdk", "Jc2xfYuLWgE"], "profil/daniel.jpg"], //Witch Doctor + Freak
-    ["Lars", ["X-77txuiVXs"], "profil/lars.jpg"], //Vamas a la pleya og andre remix af denne
-    ["Simon", ["fGx6K90TmCI","Fegs-XVKgnM"], "profil/simon.jpg"], //X gonna give it ya
-    ["Jasmin", ["CduA0TULnow", "HMqgVXSvwGo"], "profil/jasmin.jpg"], //Fireball + Oops I did it again
-    ["Christian Rømer", ["8oVndw4gRWQ"],"profil/romer.jpg"], //Ole Dakøje
-    ["Emma", ["YPV8LqSRSDg"], "profil/emma.jpg"], //Alt med Nik og Jay
-    ["Bao", ["wYuPn0CM8Ww"], "profil/bao.jpg"], //Elskovspony
-    ["Rydhof", ["e-ORhEE9VVg?t=6"], "profil/jakob.jpg"], // 
-    ["Geertinger", ["jKbR7u8J5PU"], "profil/geert.jpg"],
-    ["Piilmann", ["Oktjs-HMNIc"], "profil/pille.jpg"],
-    ["Frederiksen", ["0NTDqqnH9Bk"], "profil/frederik.jpg"],
-    ["Marcus", ["VLnWf1sQkjY", "lQlIhraqL7o", "X0DeIqJm4vM", "gAYL5H46QnQ"], "profil/marcus.jpg"]
-  ];
-
 var items = JSON.parse(sessionStorage.getItem('customLykkehjul'));
 var antalslices = items.length;
 var extrafield = ["Alle", ["DsisHmtfnGI"], "FACEBOOKID"] // 
